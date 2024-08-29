@@ -40,7 +40,6 @@ jobs:
         host: ${{ secrets.LOCAL_SERVER_HOST }}
         username: ${{ secrets.LOCAL_SERVER_USER }}
         password: ${{ secrets.LOCAL_SERVER_PASSWORD }} 
-        port: 2222
         script: |
           cd /home/usuario/Documentos/GitHub/GitHubs-Actions
           git pull origin main
