@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
@@ -34,11 +34,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: build
+    - name: Build Docker image
       run: |
-        docker build -t my-image .
-    - name: publish
-      run: |
-        docker login -u lumix00 -p ${{ secrets.DOCKERHUB_TOKEN }}
-        docker push  my-image .
+        docker build -t lumix00/my-image:latest .
 
+    - name: Login to DockerHub
+      env:
+        DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+      run: |
+        echo $DOCKERHUB_TOKEN | docker login -u lumix00 --password-stdin
+
+    - name: Push Docker image to DockerHub
+      run: |
+        docker push lumix00/my-image:latest
