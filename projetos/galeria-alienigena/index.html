@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freeman&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <a
+      href="\index.html"
+      class="logo"
+      style="position: absolute; margin: 1%"
+    >
+      <span class="symbol"
+        ><img
+          src="\images\logo.svg"
+          style="width: 2em; height: 2em"
+          alt=""
+      /></span>
+    </a>
+    <div class="starwars-demo">
+      <img
+        src="//cssanimation.rocks/demo/starwars/images/star.svg"
+        alt="Star"
+        class="star"
+      />
+      <img
+        src="//cssanimation.rocks/demo/starwars/images/wars.svg"
+        alt="Wars"
+        class="wars"
+      />
+      <h2 class="byline" id="byline">The Force Awakens</h2>
+    </div>
+
+    <div id="container">
+      <div id="character-selection"></div>
+
+      <div id="selected-character">
+        <div id="character-full-pic-container">
+          <div id="character-full-pic"></div>
+        </div>
+        <div id="character-description"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

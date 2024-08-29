@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width. initial-scale=1.0" />
+    <title>Informações dos Planetas</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <script src="home.js"></script>
+  </head>
+
+  <body>
+    <div
+      style="background-color: transparent; height: 100vh"
+      onmousemove="ambientSound()"
+      onclick="firstClick()"
+    >
+      <!-- Fundo de estrelas -->
+      <div class="fundo">
+        <div id="estrelas-1"></div>
+        <div id="estrelas-2"></div>
+        <div id="estrelas-3"></div>
+        <div id="estrelas-4"></div>
+        <div id="estrelas-5"></div>
+        <div id="estrelas-6"></div>
+      </div>
+      <div>
+        <a href="\index.html" style="text-decoration: none">
+          <button onclick="">
+            <span class="material-symbols-outlined menu-icon"> menu </span> Menu
+          </button>
+        </a>
+
+        <div
+          class="planeta tatooine"
+          onmouseover="hoverSound()"
+          id="tatooine"
+        ></div>
+
+        <div
+          class="planeta Alderaan"
+          onmouseover="hoverSound()"
+          id="alderaan"
+        ></div>
+
+        <div
+          class="planeta Yavin-IV"
+          onmouseover="hoverSound()"
+          id="yavinIV"
+        ></div>
+
+        <div
+          class="planeta Coruscant"
+          onmouseover="hoverSound()"
+          id="coruscant"
+        ></div>
+
+        <div class="planeta Hoth" onmouseover="hoverSound()" id="hoth"></div>
+
+        <div
+          class="planeta Dagobah"
+          onmouseover="hoverSound()"
+          id="dagobah"
+        ></div>
+
+        <div
+          class="planeta Bespin"
+          onmouseover="hoverSound()"
+          id="bespin"
+        ></div>
+
+        <div class="planeta Endor" onmouseover="hoverSound()" id="endor"></div>
+
+        <div class="planeta Naboo" onmouseover="hoverSound()" id="naboo"></div>
+
+        <div
+          class="planeta Estrela-I"
+          onmouseover="hoverSound()"
+          id="estrelaI"
+        ></div>
+
+        <div
+          class="planeta Estrela-II"
+          onmouseover="hoverSound()"
+          id="estrelaII"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do planeta</title>
+    <link rel="stylesheet" href="./planetas.css" />
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="../main.js"></script>
+  </head>
+  <body>
+    <div
+      style="background-color: transparent; height: 100vh"
+      onmousemove="ambientSound()"
+      onclick="firstClick()"
+    >
+      <div id="fullscreen">
+        <div class="loader"></div>
+      </div>
+
+      <div class="fundo">
+        <div id="estrelas-1"></div>
+        <div id="estrelas-2"></div>
+        <div id="estrelas-3"></div>
+        <div id="estrelas-4"></div>
+        <div id="estrelas-5"></div>
+        <div id="estrelas-6"></div>
+      </div>
+
+      <div class="detalhes-planeta">
+        <button onclick="menu()">
+          <span class="material-symbols-outlined"> chevron_left </span> Retornar
+        </button>
+
+        <!-- pontos dos planetas -->
+        <div class="imagem-planeta"></div>
+
+        <!-- Info dos planetas -->
+        <div style="display: inline-block">
+          <div class="caixa-texto"></div>
+          <div class="imagem-ponto"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

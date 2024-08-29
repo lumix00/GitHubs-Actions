@@ -1,0 +1,45 @@
+{
+    "characters": [
+        {
+            "characterID": 1,
+            "name": "Obi-Wan Kenobi",
+            "description": "Obi-Wan Kenobi was a legendary Force-sensitive human male Jedi Master who served on the Jedi High Council during the final years of the Republic Era. As a High Jedi General, Kenobi served in the Grand Army of the Republic that fought against the Separatist Droid Army during the Clone Wars, and was nicknamed \"the Negotiator.\" Kenobi, however, was forced into exile as a result of the Great Jedi Purge initiated by the Republic's own clone troopers when Republic Supreme Chancellor, secretly Darth Sidious, implemented Order 66. As a mentor, Kenobi was responsible for training two members of the Skywalker family, Anakin and Luke Skywalker, both of whom served in turn as his Padawan in the ways of the Force.",
+            "image": "https://static.wikia.nocookie.net/starwars/images/7/74/OWK-SWFB.png"
+        },
+
+        {
+            "characterID": 2,
+            "name": "Yoda",
+            "description": "Yoda, considered by some to be the Avatar of Light, was a Force-sensitive male being of a mysterious species, one of the most legendary, renowned and powerful Jedi Masters in galactic history. He was known for his legendary wisdom, mastery of the Force and skills in lightsaber combat. Yoda served as a member of the Jedi High Council in the last centuries of the Galactic Republic and as Grand Master oversaw the Jedi Order before, during, and after the devastating Clone Wars. Following the First Battle of Geonosis, Yoda held the title of Master of the Order in addition to that of Grand Master. In his centuries of service to the galaxy and the Force, Grand Master Yoda had a hand in the training of nearly all the Jedi in the Order, including such luminaries as Obi-Wan Kenobi, Ki-Adi-Mundi and Oppo Rancisis, all of whom would come to serve on the Jedi Council along with him.",
+            "image": "https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png"
+        },
+
+        {
+            "characterID": 3,
+            "name": "Luke Skywalker",
+            "description": "Luke Skywalker was a renowned Force-sensitive Human male who helped defeat the Galactic Empire in the Galactic Civil War and helped found the New Republic, as well as the New Jedi Order.",
+            "image": "https://static.wikia.nocookie.net/starwars/images/1/17/LukeSkywalker-Insider217.png"
+        },
+
+        {
+            "characterID": 4,
+            "name": "R2-D2",
+            "description": "R2-D2, sometimes spelled Artoo-Detoo and often referred to as Artoo, was an R2-series astromech droid manufactured by Industrial Automaton prior to 32 BBY, who would participate in major galactic events for nearly two centuries alongside the Skywalker family. Resourceful and spunky, the droid developed an adventurous personality during his over a century of operation. Inside his cylindrical frame were many arms, sensors, and other tools that could be extended to fulfill various needs, such as slicing computers, extinguishing fires, projecting holograms, repairing starships, and flying. Along with his counterpart, the protocol droid C-3PO, R2-D2 constantly found himself directly involved in pivotal moments of galactic history. His bravery, coupled with his many gadgets, played large roles in saving the galaxy time and time again for more than a century. Like other astromech droids, R2-D2 could walk on two legs or use a third leg to roll across the ground. ",
+            "image": "https://static.wikia.nocookie.net/starwars/images/6/6d/R2D2-Chronicles.png"
+        },
+
+        {
+            "characterID": 5,
+            "name": "Han Solo",
+            "description": "Han Solo was a male Human smuggler from the planet Corellia who achieved galactic fame as a member of the Rebel Alliance and later the New Republic. Born on Corellia, he was orphaned at an early age and taken by the pirate Garris Shrike to serve on his crew. He was treated cruelly, and served Shrike for many years before escaping while in his teens. Solo became a smuggler, and fell in love with Bria Tharen, though she left him due to her duties to the Rebel Alliance. Solo then entered the Imperial Academy at Carida, serving with distinction. He was kicked out, however, when he stopped an Imperial officer from beating a Wookiee named Chewbacca with a neuronic whip for resisting capture. In gratitude, the Wookiee swore a life debt to Solo, protecting him with his life and a bond of friendship formed between the two that was unbreakable. Solo became a smuggler once again, with Chewbacca at his side. Piloting the upgraded and customized Millennium Falcon, which he won in a game of Sabacc against Lando Calrissian, his future ally, he became known as one of the best smugglers in the galaxy. ",
+            "image": "https://static.wikia.nocookie.net/starwars/images/0/01/Hansoloprofile.jpg"
+        },
+
+        {
+            "characterID": 6,
+            "name": "Chewbacca",
+            "description": "Chewbacca (or \"Chewie,\" as he was known to his friends) was a legendary Wookiee from Kashyyyk, best known for being the co-pilot of Han Solo's ship, the Millennium Falcon. He was the son of Attichitcuk, the husband of Mallatobuck, and the father of Lumpawaroo. Chewbacca carried with him the name of an ancient Wookiee hero, the great Bacca, first of the great chieftains of Kashyyyk, and the creator of a sword that denoted leadership among the Wookiees. This name placed Chewbacca in a noble lineage, which was further supported by his role in the Battle of Kashyyyk during the Clone Wars and during the Galactic Civil War.",
+            "image": "https://static.wikia.nocookie.net/starwars/images/e/ec/ChewbaccaCSWE.jpg"
+        }
+    ]
+}

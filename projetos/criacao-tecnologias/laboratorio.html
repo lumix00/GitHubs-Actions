@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratório de Pesquisa</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/cabecalho.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="css/rodape.css" />
+  </head>
+
+  <body>
+    <a
+      href="\index.html"
+      class="logo"
+      style="position: absolute; margin: 1%"
+    >
+      <span class="symbol"
+        ><img
+          src="\images\logo.svg"
+          style="width: 2em; height: 2em"
+          alt=""
+      /></span>
+    </a>
+    <!-- <header>
+        <h1>Laboratório de Pesquisa</h1>
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li><a href="#">Academia Galática</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Exploração</a></li>
+                <li><a href="#">Batalhas</a></li>
+            </ul>
+        </nav>
+    </header>  -->
+    <main>
+      <section>
+        <h2>Explore as Tecnologias do Futuro</h2>
+        <p>
+          Digite um termo de pesquisa para descobrir as últimas inovações
+          tecnológicas.
+        </p>
+
+        <form id="pesquisa-form">
+          <input
+            type="text"
+            id="pesquisa-input"
+            placeholder="Digite um termo de pesquisa"
+          />
+          <button type="submit">Pesquisar</button>
+        </form>
+
+        <div class="card-container">
+          <div class="card-container">
+            <div class="card">
+              <h3>Mais pesquisados</h3>
+              <ul id="mais-pesquisados" class="card-list"></ul>
+            </div>
+            <div class="card">
+              <h3>Recém Publicados</h3>
+              <ul id="recentes" class="card-list"></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <h2>Todas as Tecnologias</h2>
+          <div id="carousel" class="carousel">
+            <div class="carousel-inner" id="carousel-inner"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 - Squad 5. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script1.js"></script>
+  </body>
+</html>

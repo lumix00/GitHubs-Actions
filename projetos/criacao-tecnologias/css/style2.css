@@ -1,0 +1,118 @@
+main {
+    padding: 2rem;
+    flex-grow: 1;
+    position: relative;
+}
+
+.btn-voltar {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: inline-block;
+    background-color: #00ffff;
+    color: #0f0f1a;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.btn-voltar:hover {
+    background-color: #00cccc;
+}
+
+.btn-voltar i {
+    margin-right: 0.5rem;
+}
+
+.tecnologia-detalhes {
+    padding: 2rem;
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #00ffff;
+    margin-top: 70px;
+}
+
+.tecnologia-detalhes h2 {
+    font-size: 2rem;
+    color: #00ffff;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.detalhes-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tecnologia-detalhes img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detalhes-texto {
+    flex-grow: 1;
+}
+
+.tecnologia-detalhes p {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.tecnologia-detalhes h3 {
+    font-size: 1.5rem;
+    color: #00ffff;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.tecnologia-detalhes ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tecnologia-detalhes li {
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 1.6;
+    background-color: #2a2a3f;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(50% - 0.5rem);
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .detalhes-container {
+        flex-direction: column;
+    }
+
+    .tecnologia-detalhes img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .tecnologia-detalhes li {
+        flex-basis: 100%;
+    }
+}

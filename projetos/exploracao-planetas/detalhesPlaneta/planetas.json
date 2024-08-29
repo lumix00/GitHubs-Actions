@@ -1,0 +1,190 @@
+{
+  "alderaan": {
+    "nome": "Alderaan",
+    "tamanho": "12.500km de diâmetro",
+    "populacao": "2.000.000.000 habitantes",
+    "periodoOrbital": "364 dias",
+    "periodoRotacao": "24 horas",
+    "clima": "Temperado",
+    "terreno": "Montanhas",
+    "img": "../imagens/Alderaan/Alderaan.png",
+    "pontos": [
+      { "nome": "Destruição de Alderaan", "img": "../imagens/Alderaan/ponto1.jpeg", "posicao": 1 }
+    ],
+    "descricao": "Alderaan era um planeta pacífico conhecido por suas belas paisagens de pradarias e montanhas. Infelizmente, foi destruído pelo Império Galáctico como um exemplo de poder da Estrela da Morte.",
+    "aparicoes": ["Star Wars: Episódio IV - Uma Nova Esperança (1977)"]
+  },
+  "bespin": {
+    "nome": "Bespin",
+    "tamanho": "23.600km de diâmetro",
+    "populacao": "6.000.000 habitantes",
+    "periodoOrbital": "5.110 dias",
+    "periodoRotacao": "12 horas",
+    "clima": "Temperado",
+    "terreno": "Planeta Gasoso",
+    "img": "../imagens/Bespin/Bespin.png",
+    "pontos": [
+      { "nome": "Cidade das Nuvens", "img": "../imagens/Bespin/ponto1.jpeg", "posicao": 1 },
+      { "nome": "Luke X Darth Vader", "img": "../imagens/Bespin/ponto2.jpeg", "posicao": 2 },
+      { "nome": "Sala de Jantar", "img": "../imagens/Bespin/ponto3.jpeg", "posicao": 3 }
+    ],
+    "descricao": "Bespin é um planeta gasoso conhecido por sua atmosfera rica em gás Tibanna, usado na produção de combustível e armas. Ele abriga a Cidade das Nuvens, uma estação flutuante de mineração de gás, onde ocorreu o infame confronto entre Darth Vader e Luke Skywalker.",
+    "aparicoes": ["Star Wars: Episódio V - O Império Contra-Ataca (1980)"]
+  },
+  "coruscant": {
+    "nome": "Coruscant",
+    "tamanho": "12.240km de diâmetro",
+    "populacao": "1.000.000.000.000 habitantes",
+    "periodoOrbital": "368 dias",
+    "periodoRotacao": "24 horas",
+    "clima": "Temperado",
+    "terreno": "Paisagem Urbana, Montanhas",
+    "img": "../imagens/Coruscant/Coruscant.png",
+    "pontos": [{ "nome": "Dia", "img": "../imagens/Coruscant/ponto2.jpeg", "posicao": 2 }],
+    "descricao": "Coruscant é um planeta urbano com uma paisagem dominada por arranha-céus e uma população vasta e diversificada. Ele serve como o centro político e cultural da Galáxia, sendo o local da sede do Senado Galáctico e do Templo Jedi. Foi também onde o Chanceler Palpatine declarou a formação do Império Galáctico.",
+    "aparicoes": ["Star Wars: Episódio VI - O Retorno de Jedi (1983)"]
+  },
+  "dagobah": {
+    "nome": "Dagobah",
+    "tamanho": "8.900km de diâmetro",
+    "populacao": "Desconhecida habitantes",
+    "periodoOrbital": "341 dias",
+    "periodoRotacao": "23 horas",
+    "clima": "Escuro",
+    "terreno": "Pântano, Selvas",
+    "img": "../imagens/Dagobah/Dagobah.png",
+    "pontos": [
+      { "nome": "Chegada de Luke", "img": "../imagens/Dagobah/ponto1.jpeg", "posicao": 1 },
+      { "nome": "Luke e Yoda", "img": "../imagens/Dagobah/ponto2.jpeg", "posicao": 2 },
+      { "nome": "Treinamento de Luke", "img": "../imagens/Dagobah/ponto3.jpeg", "posicao": 3 }
+    ],
+    "descricao": "Dagobah é um planeta coberto por pântanos e selvas densas. Este planeta remoto e sombrio foi onde o Mestre Jedi Yoda se exilou após a queda da República Galáctica. Foi também onde Luke Skywalker foi treinado por Yoda para se tornar um Jedi.",
+    "aparicoes": [
+      "Star Wars: Episódio V - O Império Contra-Ataca (1980)",
+      "Star Wars: Episódio VI - O Retorno de Jedi (1983)"
+    ]
+  },
+  "endor": {
+    "nome": "Endor",
+    "tamanho": "4.900km de diâmetro",
+    "populacao": "30.000.000 habitantes",
+    "periodoOrbital": "402 dias",
+    "periodoRotacao": "18 horas",
+    "clima": "Temperado",
+    "terreno": "Florestas, Montanhas, Lagos",
+    "img": "../imagens/Endor/Endor.png",
+    "pontos": [
+      { "nome": "Posto Imperial", "img": "../imagens/Endor/ponto1.jpeg", "posicao": 1 },
+      { "nome": "Vilas Ewoks", "img": "../imagens/Endor/ponto2.jpeg", "posicao": 2 },
+      { "nome": "Batalha de Endor", "img": "../imagens/Endor/ponto3.jpeg", "posicao": 3 }
+    ],
+    "descricao": "Endor é um planeta coberto por densas florestas e lar dos Ewoks, uma espécie de habitantes nativos. Foi onde a Aliança Rebelde liderou uma batalha crucial contra o Império Galáctico, destruindo o gerador de escudos da segunda Estrela da Morte.",
+    "aparicoes": ["Star Wars: Episódio VI - O Retorno de Jedi (1983)"]
+  },
+  "estrelaI": {
+    "nome": "Estrela da Morte",
+    "tamanho": "160km de diâmetro",
+    "populacao": "Não aplicável (Estação espacial Militar)",
+    "periodoOrbital": "Não aplicável (Estação espacial Militar) dias",
+    "periodoRotacao": "Não aplicável (Estação espacial Militar) horas",
+    "clima": "Controlado Artificialmente",
+    "terreno": "Espaço Exterior, Interior da Estação",
+    "img": "../imagens/Estrela-I/Estrela-I.png",
+    "pontos": [
+      { "nome": "Construção", "img": "../imagens/Estrela-I/ponto2.jpeg", "posicao": 2 },
+      { "nome": "Raio da Morte", "img": "../imagens/Estrela-I/ponto3.jpeg", "posicao": 3 }
+    ],
+    "descricao": "A Estrela da Morte era uma estação espacial militar do Império Galáctico, projetada para ser uma arma de destruição em massa capaz de destruir planetas inteiros. Ela foi destruída pela Aliança Rebelde durante a Batalha de Yavin, quando Luke Skywalker destruiu o reator principal com um tiro certeiro no ponto fraco.",
+    "aparicoes": ["Star Wars: Episódio IV - Uma Nova Esperança (1977)"]
+  },
+  "estrelaII": {
+    "nome": "Estrela da Morte II",
+    "tamanho": "900km de diâmetro",
+    "populacao": "Não aplicável (Estação espacial Militar)",
+    "periodoOrbital": "Não aplicável (Estação espacial Militar) dias",
+    "periodoRotacao": "Não aplicável (Estação espacial Militar) horas",
+    "clima": "Controlado Artificialmente",
+    "terreno": "Espaço Exterior, Interior da Estação",
+    "img": "../imagens/Estrela-II/Estrela-II.png",
+    "pontos": [
+      { "nome": "Batalha de Endor", "img": "../imagens/Estrela-II/ponto1.jpeg", "posicao": 1 },
+      { "nome": "Interior", "img": "../imagens/Estrela-II/ponto2.jpeg", "posicao": 2 },
+      { "nome": "Ataque à Estrela da Morte II", "img": "../imagens/Estrela-II/ponto3.jpeg", "posicao": 3 }
+    ],
+    "descricao": "A Estrela da Morte II, também conhecida como Estrela da Morte incompleta, foi uma segunda estação espacial militar construída pelo Império Galáctico após a destruição da primeira Estrela da Morte. Ela foi ainda mais poderosa e incluiu um gerador de escudos que protegia o reator principal.",
+    "aparicoes": ["Star Wars: Episódio VI - O Retorno de Jedi (1983)"]
+  },
+  "hoth": {
+    "nome": "Hoth",
+    "tamanho": "7.200km de diâmetro",
+    "populacao": "10 habitantes",
+    "periodoOrbital": "549 dias",
+    "periodoRotacao": "23 horas",
+    "clima": "Congelado",
+    "terreno": "Tundra, Cavernas de Gelo, Cadeias de Montanhas",
+    "img": "../imagens/Hoth/Hoth.png",
+    "pontos": [
+      { "nome": "Batalha de Hoth", "img": "../imagens/Hoth/ponto1.jpeg", "posicao": 1 },
+      { "nome": "Caverna Wampa", "img": "../imagens/Hoth/ponto2.jpeg", "posicao": 2 },
+      { "nome": "Tauntaun", "img": "../imagens/Hoth/ponto3.jpeg", "posicao": 3 }
+    ],
+    "descricao": "Hoth é um planeta gelado conhecido por sua tundra vasta e implacável. Durante a Guerra Civil Galáctica, serviu como a localização da Base Eco da Aliança Rebelde. Foi lá que a Aliança lutou contra o Império Galáctico em uma batalha épica.",
+    "aparicoes": ["Star Wars: Episódio V - O Império Contra-Ataca (1980)"]
+  },
+  "naboo": {
+    "nome": "Naboo",
+    "tamanho": "12.120km de diâmetro",
+    "populacao": "4.500.000.000 habitantes",
+    "periodoOrbital": "312 dias",
+    "periodoRotacao": "26 horas",
+    "clima": "Temperado",
+    "terreno": "Colinas Relvadas, Pântanos, Florestas, Montanhas",
+    "img": "../imagens/Naboo/Naboo.png",
+    "pontos": [
+      { "nome": "Cidade Principal", "img": "../imagens/Naboo/ponto1.jpeg", "posicao": 1 },
+      { "nome": "Spaceport", "img": "../imagens/Naboo/ponto2.jpeg", "posicao": 2 }
+    ],
+    "descricao": "Naboo é um planeta conhecido por suas belas paisagens de colinas relvadas, pântanos e florestas. Ele desempenhou um papel importante na história galáctica, sendo o local de nascimento de Padmé Amidala e onde ocorreram importantes eventos políticos durante a era da República Galáctica.",
+    "aparicoes": [
+      "Star Wars: Episódio I - A Ameaça Fantasma (1999)",
+      "Star Wars: Episódio II - O Ataque dos Clones (2002)"
+    ]
+  },
+  "tatooine": {
+    "nome": "Tatooine",
+    "tamanho": "10.465km de diâmetro",
+    "populacao": "200.000 habitantes",
+    "periodoOrbital": "304 dias",
+    "periodoRotacao": "23 horas",
+    "clima": "Árido",
+    "terreno": "Deserto",
+    "img": "../imagens/Tatooine/Tatooine.png",
+    "pontos": [
+      { "nome": "Casa de Luke", "img": "../imagens/Tatooine/ponto1.jpeg", "posicao": 1 },
+      { "nome": "Mos Eisley", "img": "../imagens/Tatooine/ponto2.jpeg", "posicao": 2 },
+      { "nome": "Jawa Traders", "img": "../imagens/Tatooine/ponto3.jpeg", "posicao": 3 }
+    ],
+    "descricao": "Tatooine é um planeta árido e deserto, conhecido por suas extensas dunas de areia. Foi aqui que Luke Skywalker cresceu sob os cuidados de seus tios. Tatooine também foi o local onde Luke encontrou Obi-Wan Kenobi e onde começou sua jornada para se tornar um Jedi.",
+    "aparicoes": [
+      "Star Wars: Episódio IV - Uma Nova Esperança (1977)",
+      "Star Wars: Episódio VI - O Retorno de Jedi (1983)"
+    ]
+  },
+  "yavinIV": {
+    "nome": "Yavin IV",
+    "tamanho": "10.200km de diâmetro",
+    "populacao": "1.000 habitantes",
+    "periodoOrbital": "4.818 dias",
+    "periodoRotacao": "24 horas",
+    "clima": "Tropical",
+    "terreno": "Floresta, Floresta Tropical",
+    "img": "../imagens/Yavin-IV/Yavin-IV.png",
+    "pontos": [
+      { "nome": "Vale Massassi", "img": "../imagens/Yavin-IV/ponto1.jpeg", "posicao": 1 },
+      { "nome": "Plano", "img": "../imagens/Yavin-IV/ponto2.jpeg", "posicao": 2 },
+      { "nome": "Ataque", "img": "../imagens/Yavin-IV/ponto3.jpeg", "posicao": 3 }
+    ],
+    "descricao": "Yavin IV é uma lua com uma mistura de climas temperado e tropical, caracterizada por suas vastas florestas e selvas. Ficou conhecida como o local da Base Rebelde, onde a Aliança Rebelde lançou o ataque bem-sucedido contra a primeira Estrela da Morte.",
+    "aparicoes": ["Star Wars: Episódio IV - Uma Nova Esperança (1977)"]
+  }
+}
