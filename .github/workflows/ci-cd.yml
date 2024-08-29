@@ -27,4 +27,24 @@ jobs:
     - name: Run tests
       run: npm test
 
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
+    - name: Deploy to Local Docker
+      uses: appleboy/ssh-action@v0.1.2
+      with:
+        host: ${{ secrets.LOCAL_SERVER_HOST }}
+        username: ${{ secrets.LOCAL_SERVER_USER }}
+        key: ${{ secrets.LOCAL_SERVER_SSH_KEY }}
+        script: |
+          cd /home/usuario/Documentos/GitHub/GitHubs-Actions
+          git pull origin main
+          docker build -t meu-projeto:latest .
+          docker stop meu-projeto || true
+          docker rm meu-projeto || true
+          docker run -d -p 3000:3000 --name meu-projeto meu-projeto:latest
+          docker image prune -f  # Limpa imagens antigas
