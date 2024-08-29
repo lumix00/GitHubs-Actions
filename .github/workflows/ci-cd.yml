@@ -40,11 +40,12 @@ jobs:
         host: ${{ secrets.LOCAL_SERVER_HOST }}
         username: ${{ secrets.LOCAL_SERVER_USER }}
         password: ${{ secrets.LOCAL_SERVER_PASSWORD }} 
+        port: 2222
         script: |
           cd /home/usuario/Documentos/GitHub/GitHubs-Actions
           git pull origin main
           docker build -t meu-projeto:latest .
           docker stop meu-projeto || true
           docker rm meu-projeto || true
-          docker run -d -p 3000:3000 --name meu-projeto meu-projeto:latest
+          docker run -d -p 3000:3000 -p 2222:22 --name my-container my-image
           docker image prune -f  # Limpa imagens antigas
